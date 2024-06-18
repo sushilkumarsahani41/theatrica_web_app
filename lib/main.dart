@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:sar_web/firebase_options.dart';
+// import 'package:sar_web/firebase_options.dart';
 import 'package:sar_web/routes.dart';
 import 'package:firebase_core/firebase_core.dart';
 
 // ...
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+  // WidgetsFlutterBinding.ensureInitialized();
+  // await Firebase.initializeApp(
+  //   options: DefaultFirebaseOptions.currentPlatform,
+  // );
   // await FirebaseAppCheck.instance.activate(
   //   webProvider:
   //       ReCaptchaV3Provider('6Le059wpAAAAAJamdGcW1rQ6nfi3XlDM3Go5ZW7j'),
