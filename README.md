@@ -1,4 +1,4 @@
-# sar_web
+# Theatrica Web App 
 
 A new Flutter project.
 
